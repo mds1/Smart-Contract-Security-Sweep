@@ -7,3 +7,5 @@ services:
   slither:
     image: trailofbits/slither
 
+  oyente:
+    image: luongnguyen/oyente

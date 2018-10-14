@@ -3,6 +3,7 @@ This program runs a contract through a range of available smart contract securit
 
 * Mythril
 * Slither
+* Oyente
 
 ## Getting Started
 
