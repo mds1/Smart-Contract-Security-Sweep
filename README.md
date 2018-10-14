@@ -2,6 +2,7 @@
 This program runs a contract through a range of available smart contract security tools. Output files for each tool are placed in the `outputs` directory in files called `toolName.out`. Currently, the following tools have been implemented:
 
 * Mythril
+* Slither
 
 ## Getting Started
 
@@ -11,9 +12,9 @@ Docker and Bash are required to use this tool.
 
 ### Using This Tool
 
-1. Pull Mythril using `docker pull mythril/myth`
-2. Execute the script using `./sweep.sh ContractName.sol`
-3. Outputs will be placed in a folder called `outputs`
+1. In the root of this project, create a directory called `contracts` and place the contract to analyze in that folder
+2. Execute the script using `./sweep.sh contracts/ContractName.sol`
+3. Output files will be placed in a folder called `outputs`
 
 ## Tools
 ### Mythril

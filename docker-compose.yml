@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  mythril:
+    image: mythril/myth
+
+  slither:
+    image: trailofbits/slither
+
